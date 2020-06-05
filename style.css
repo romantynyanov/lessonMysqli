@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    min-width: 1200px;
+    background: #f0f1f4;
+    color: #798486;
+    font-family: 'Inconsolata', monospace;
+}
+
+/**************************************************/
+/* контэйнер */
+.contaner {
+    width: 1600px;
+
+    margin: 0 auto;
+    background: #d3d4d6;
+    padding: 1px 11px;
+
+}
+
+.h1_dz {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2b2c18;
+    margin: 20px;
+}
+
+.h1_dz span {
+    color: red;
+    font-size: 70px;
+    margin: 10px;
+
+}
+
+.left_block {
+    width: 40%;
+    float: left;
+
+}
+
+.right_block {
+    float: left;
+    width: 60%;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/* блок задания */
+.count,
+.like {
+    background: #fff;
+    margin: 10px;
+    box-shadow: 2px 2px 20px rgba(12, 15, 100, 0.3);
+    padding-bottom: 1px;
+}
+
+.count h1,
+.like h1 {
+    color: #2c3632;
+    padding: 15px;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.count span,
+.like span {
+    color: red;
+    font-size: 15px;
+    margin-right: 5px;
+
+}
+
+.count p,
+.like p {
+    color: #2c3632;
+    padding: 0 20px;
+
+}
+
+.count li {
+    list-style-type: none;
+}
+
+.butt_p {
+    transform: skewX(20deg);
+}
+
+.but {
+    transform: skewX(-20deg);
+    padding: 2px 15px;
+    margin: 10px 5%;
+    /* border-radius: 10px;*/
+    background: #f3fbec;
+    width: 90%;
+    text-align: left;
+    box-shadow: 2px 1px 5px black;
+}
+
+.but:hover {
+    background: #abce00;
+}
+
+
+/* блок таблицы */
+.display {
+    margin: 10px;
+    padding: 20px;
+    background: #f5f8eb;
+    box-shadow: 2px 2px 20px rgba(12, 15, 100, 0.3);
+}
+
+.display table {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+.display thead {
+    background: #c0cdd7;
+    text-align: center;
+}
+
+.display tbody {
+    background: #efe6d6;
+
+}
+
+.display p {
+    color: red;
+    font-size: 30px;
+
+}
+
+.topQuery {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.left_q {
+    float: left;
+    width: 70%;
+
+
+}
+
+.right_q {
+    float: right;
+    width: 30%;
+
+    text-align: center;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 200px;
+    /* border-radius: 20px;*/
+    padding: 0 15px;
+    color: darkgoldenrod;
+    margin: 0 30px;
+}
+
+input[type="submit"] {
+    height: 30px;
+
+    /*border-radius: 20px;*/
+    padding: 0 15px;
+    color: black;
+    margin-right: 15px;
+    background: orange;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+/* --- */
